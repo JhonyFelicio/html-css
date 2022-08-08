@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            16px tamanho normal da fonte que é = a 1em
+
+            Medidas absolutas
+            cm, mn, in (polegada), px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            */
+            font-size: 1em;
+            font-weight: normal;
+           /* lighter normal bold bolder */
+           
+           font-style: ;
+           text-decoration: ;
+
+            /*  weight - Peso
+                width - Largura
+                height - Altura
+            */
+        }
+
+        h1 { 
+
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; */
+            font: italic bolder 3em Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        h2 {
+            font: bold 2em Georgia, 'Times New Roman', Times, serif;
+            font-weight: bolder;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quidem corrupti, impedit harum dolorem sapiente sit doloremque reprehenderit, quam voluptatum natus. Numquam, autem quo? Quis earum totam accusantium aspernatur delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem at minima consectetur doloribus beatae voluptate ea nihil. Voluptate quo inventore consequuntur corrupti nisi. Porro odio nulla esse impedit perspiciatis suscipit.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aliquam cum velit id, tempore obcaecati nulla alias laboriosam consequatur libero ratione voluptatum cumque enim laborum earum officiis similique aperiam animi!</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum minima modi tempora dolorem nam est doloribus, iusto unde saepe vel provident, aspernatur quisquam cumque. Pariatur, consequuntur. Et, mollitia possimus? Laborum!</p>
+</body>
+</html>
